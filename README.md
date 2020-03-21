@@ -24,6 +24,11 @@ Other repos in considerations includes:
 
 These may or may not have sub categories, such as, 'breakpoints' for Responsive Design (new layout). It will might include a new set of Design systems. However, I will tailor it to basic functions and it will be up to the user to do interesting feats.
 
+
+## CSS with variables
+
+Support: Modern browsers
+
 ## To-Do List
 
 - Create repo: CSS and older browser supports

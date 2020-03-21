@@ -1,0 +1,145 @@
+/*---------------------------
+Setting TYPOGRAPHY with CSS Variables
+---------------------------
+
+Designing a typography system means making decisions about:
+
+1. The typeface (font-family) you want to use.
+2. Type (modular) scale.
+3. Responsiveness of the text (size unit and breakpoints).
+4. Spacing and vertical rhythm.
+5. Colors (theming).
+
+NB: The spacing and/or Vertical Rhythm may be incorporated here, and the
+  Color System may or may not be here. tbc. Continued. OK I decieded to different category SEPARATED
+
+*/
+
+:root {
+  --font-primary: sans-serif;
+  --font-secondary: serif;
+
+  /* Set base value */
+  --text-base-size: 1em; /* e.g. 16px */
+  --text-scale-ratio: 1.2; /* e.g. modular scale */
+
+  /* type scale */
+  --text-xs: calc(1em / (var(--text-scale-ratio) * var(--text-scale-ratio)));
+  --text-sm: calc(1em / var(--text-scale-ratio));
+  /* font base / normal: 1em */
+  --text-md: calc(1em * var(--text-scale-ratio));
+  --text-lg: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-xl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-xxl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-xxxl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+}
+
+/*
+---------------------------
+BREAKPOINTS
+---------------------------
+
+SPECIFICS:
+
+- Only at digital devices
+- max screen target: 1920px
+
+*/
+
+/*
+  ##Device = Small handset; Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 0 to 479px
+  ##Window = xsmall
+  ##Column = 4
+*/
+@media screen and (max-width: 479px) {
+  :root {
+    /* Only change these two variables */
+    --text-base-size: 1em;
+    --text-scale-ratio: 1.2;
+  }
+}
+
+/*
+  ##Device = Large handset, Small handset; Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 480px to 599px
+  ##Window = xsmall
+  ##Column = 4
+*/
+@media screen and (max-width: 599px){
+  :root {
+    /* Only change these two variables */
+    --text-base-size: 1em;
+    --text-scale-ratio: 1.2;
+  }
+}
+
+/*
+  ##Device = Large handset, Large tablet, Small tablet, Medium handset; Tablets, Ipads (landscape)
+  ##Screen = B/w 600px to 839px
+  ##Window = small
+  ##Column = 8
+*/
+@media screen and (max-width: 839px){
+  :root {
+    /* Only change these two variables */
+    --text-base-size: 1em;
+    --text-scale-ratio: 1.2;
+  }
+}
+
+/*
+  ##Device = Large tablet, Small tablet, Large handset; Tablets, Ipads (landscape)
+  ##Screen = B/w 840px to 1023px
+  ##Window = small
+  ##Column = 12
+*/
+@media screen and (max-width: 1023px){
+  :root {
+    /* Only change these two variables */
+    --text-base-size: 1em;
+    --text-scale-ratio: 1.2;
+  }
+}
+
+/*
+  ##Device = Large tablet; Laptops, Desktops
+  ##Screen = B/w 1024px to 1439px
+  ##Window = medium
+  ##Column = 12
+*/
+@media screen and (max-width: 1439px){
+  :root {
+    /* Only change these two variables */
+    --text-base-size: 1em;
+    --text-scale-ratio: 1.2;
+  }
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = B/w 1440px to 1919px
+  ##Window = large
+  ##Column = 12
+*/
+@media screen and (max-width: 1919px){
+  :root {
+    /* Only change these two variables */
+    --text-base-size: 1em;
+    --text-scale-ratio: 1.2;
+  }
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = B/w 1920px to to higher resolution desktops
+  ##Window = xlarge
+  ##Column = n/a
+*/
+@media screen and (min-width: 1920px){
+  :root {
+    /* Only change these two variables */
+    --text-base-size: 1em;
+    --text-scale-ratio: 1.2;
+  }
+}
