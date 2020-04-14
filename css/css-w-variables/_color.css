@@ -53,4 +53,18 @@ Some things to consider about colors:
   --text-color-90: red;
 
   /* Special Text Colors */
+  /* Links */
+  --text-link-color-inactive: red;
+  --text-link-color-active: red;
+
+  /* other (please specify, if there's more) */
+
+  /* Info Color */
+  /* success */
+  
+  /* failure */
+  /* warning */
+  /* info */
+
+  /* Dark Theme anyone? -> Put in another file */
 }
