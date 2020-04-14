@@ -16,9 +16,9 @@ Some things to consider about colors:
 */
 
 :root {
-  /* Primary Color - brightest to darkest variations */
+  /* Primary Colors - brightest to darkest variations */
   --primary-color-05: red;
-  --primary-color-10: red;
+  --primary-color-10: red; /* Hint MAIN Primary Color */
   --primary-color-20: red;
   --primary-color-30: red;
   --primary-color-40: red;
@@ -28,9 +28,9 @@ Some things to consider about colors:
   --primary-color-80: red;
   --primary-color-90: red;
 
-  /* Secondary Color - brightest to darkest variations */
+  /* Secondary Colors - brightest to darkest variations */
   --secondary-color-05: red;
-  --secondary-color-10: red;
+  --secondary-color-10: red; /* Hint MAIN Secondary Color */
   --secondary-color-20: red;
   --secondary-color-30: red;
   --secondary-color-40: red;
@@ -39,5 +39,7 @@ Some things to consider about colors:
   --secondary-color-70: red;
   --secondary-color-80: red;
   --secondary-color-90: red;
+
+  /* Text Colors */
 
 }
