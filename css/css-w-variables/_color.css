@@ -1,0 +1,32 @@
+/*---------------------------
+Setting COLOR with CSS Variables
+---------------------------
+
+Some things to consider about colors:
+
+1. Primary color, primary color variations.
+2. (optional) Secondary color, secondary color variations.
+3. Text colors, Text color variations.
+4. Info colors
+  - success: green
+  - failure: red
+  - warning: orange
+  - info: blue, etc.
+
+*/
+
+:root {
+  /* Primary Color - brightest to darkest variations */
+  --primary-color-05: red;
+  --primary-color-10: red;
+  --primary-color-20: red;
+  --primary-color-30: red;
+  --primary-color-40: red;
+  --primary-color-50: red;
+  --primary-color-60: red;
+  --primary-color-70: red;
+  --primary-color-80: red;
+  --primary-color-90: red;
+
+  /* Secondary Color */
+}
