@@ -13,6 +13,7 @@ Some things to consider about colors:
   - warning: orange
   - info: blue, etc.
 
+If there are in use, include them. Otherwise, vice verssa.
 */
 
 :root {
@@ -61,10 +62,13 @@ Some things to consider about colors:
 
   /* Info Color */
   /* success */
-  
+  --success-color: red;
   /* failure */
+  --failure-color: red;
   /* warning */
+  --warning-color: red;
   /* info */
+  --info-color: red;
 
   /* Dark Theme anyone? -> Put in another file */
 }
