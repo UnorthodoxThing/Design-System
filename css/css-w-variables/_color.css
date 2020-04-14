@@ -40,7 +40,7 @@ Some things to consider about colors:
   --secondary-color-80: red;
   --secondary-color-90: red;
 
-  /* Text Colors */
+  /* Text Colors - brightest to darkest variations */
   --text-color-05: red;
   --text-color-10: red; /* Hint MAIN Text Color */
   --text-color-20: red;
@@ -51,4 +51,6 @@ Some things to consider about colors:
   --text-color-70: red;
   --text-color-80: red;
   --text-color-90: red;
+
+  /* Special Text Colors */
 }
