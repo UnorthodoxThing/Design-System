@@ -27,7 +27,7 @@ These may or may not have sub categories, such as, 'breakpoints' for Responsive 
 
 ## CSS with variables
 
-Support: Modern browsers
+Support: Modern browsers; IE9 and above(?)
 
 ## To-Do List
 
