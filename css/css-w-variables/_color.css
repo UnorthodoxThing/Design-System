@@ -28,5 +28,16 @@ Some things to consider about colors:
   --primary-color-80: red;
   --primary-color-90: red;
 
-  /* Secondary Color */
+  /* Secondary Color - brightest to darkest variations */
+  --secondary-color-05: red;
+  --secondary-color-10: red;
+  --secondary-color-20: red;
+  --secondary-color-30: red;
+  --secondary-color-40: red;
+  --secondary-color-50: red;
+  --secondary-color-60: red;
+  --secondary-color-70: red;
+  --secondary-color-80: red;
+  --secondary-color-90: red;
+
 }
