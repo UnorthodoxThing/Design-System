@@ -25,3 +25,21 @@ h1
   --space-unit-4: 1;
   --space-unit-5: 1;
 }
+
+/* XS media query ???*/
+
+h1 {
+  /* margin-top: unkown; */
+  margin-bottom: var(--space-unit-2);
+}
+
+h2, h3 {
+  margin-bottom: var(--space-uniti-1);
+}
+
+/* target div last paragraph */
+article *:last-child,
+section *:last-child,
+aside *:last-child {
+  margin-bottom: var(--space-unit-2);
+}
