@@ -37,6 +37,10 @@ h2, h3 {
   margin-bottom: var(--space-uniti-1);
 }
 
+p {
+  margin-bottom: var(--space-uniti-1);
+}
+
 /* target div last paragraph */
 article *:last-child,
 section *:last-child,
